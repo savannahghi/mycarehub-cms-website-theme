@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/styles/styles.css" />
+		
+		<title>myCareHub</title>
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<div class="logo">
+				<img src="./assets/images/logo.svg" alt="myCareHub" />
+				<h3>myCareHub</h3>
+			</div>
+		</header>
+		<!-- end header -->
+
+		<!-- main -->
+		<main>
+			<!-- photo gallery -->
+			<section class="card photo-gallery" >
+				<!-- gallery -->
+				<div class="gallery" id="photo-gallery">
+
+					<a
+						class="main"
+						href="./assets//images/library.png"
+						data-pswp-width="1080"
+						data-pswp-height="720"
+						target="_blank"
+					>
+						<img src="./assets//images/library.png" alt="Library" />
+					</a>
+
+						
+
+				<div class="extra">
+					<a href="./assets//images/banner-img.png"
+								data-pswp-width="1080"
+						data-pswp-height="720"
+          target="_blank">
+						<div class="extra-image">+30 more</div>
+				
+					<a
+							
+							href="./assets//images/banner-img.png"
+								data-pswp-width="1080"
+						data-pswp-height="720"
+          target="_blank"
+						>
+							<img src="./assets//images/banner-img.png" alt="Library" />
+						</a>
+				</div>
+					</a>
+				</div>
+				<!-- end gallery -->
+
+				<!-- details -->
+				<div class="details">
+					<div class="meta">
+						<div>
+							<h4>And rumour has it she’s the one</h4>
+							<span class="author">Abuid Orina</span>
+						</div>
+						<div class="timestamp"><span>21 Nov 2021</span></div>
+					
+				</div>
+				<!-- end details -->
+			</section>
+			<!-- end photo gallery -->
+
+			<!-- video -->
+			<section class="card video">
+				<video
+					id="main-video"
+					controls
+					src="https://storage.googleapis.com/mycarehub-test/media/media/Ep_5_Explainer_No_CC.mp4"
+				></video>
+				<!-- details -->
+				<div class="details">
+					<div class="meta">
+						<div>
+							<h4>And rumour has it she’s the one</h4>
+							<span class="author">Abuid Orina</span>
+						</div>
+						<div class="timestamp"><span>21 Nov 2021</span></div>
+					
+				</div>
+				<!-- end details -->
+			</section>
+			<!-- end video -->
+
+
+			<!-- audio -->
+			<section class="card audio">
+				<div class="player">
+					<audio
+						src="https://storage.googleapis.com/mycarehub-test/media/media/Background_Music_Soft_Piano_Music_ppKS2s4.aac"
+					></audio>
+
+					<div class="actions">
+						<div id="audio-length" class="content-length">02:30</div>
+						<div class="control">
+							<div class="wrapper">
+								<button class="play-btn"></button>
+							</div>
+						</div>
+						<div class="info">
+							<h4>Easy on me</h4>
+							<div class="content">
+								<span class="author">Abiud Orina</span>
+								<span class="timestamp">21 Nov 2021</span>
+							</div>
+							<div class="progress-bar">
+								<div class="progress"></div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end audio -->
+
+			<!-- document -->
+			<section class="card document">
+				<div class="wrapper">
+					<img src="./assets/images/pdf.png" alt="Document" />
+					<div class="meta">pdf</div>
+				</div>
+				<div class="actions">
+					<div class="content-length">5 pages</div>
+
+					<div class="info">
+						<h4>Easy on me</h4>
+						<div class="content">
+							<span class="author">Abiud Orina</span>
+							<span class="timestamp">21 Nov 2021</span>
+						</div>
+
+						<span class="tap">Tap to view</span>
+						
+					</div>
+				</div>
+			</section>
+			<!-- end document -->
+		</main>
+		<!-- end main -->
+
+		<!-- javascript -->
+		<script type="module" src="./scripts/main.js" defer></script>
+		<script type="module" src="./scripts/photoswipe.js" defer></script>
+		<!-- end javascript -->
+	</body>
+</html>
